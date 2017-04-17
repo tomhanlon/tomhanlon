@@ -27,11 +27,16 @@ p {
 	font-family: 'Roboto', sans-serif;
 	margin-top: .5rem;
 }
-@media screen and (min-width: 414px) {
+@media screen and (min-width:414px) {
 	.container {
 		max-width: 30rem;
 	}
 }
 a {
 	color: #a65b3e;
+	cursor: pointer;
+	transition: color 1s ease;
+}
+a:hover {
+	color: #e5584e;
 }
