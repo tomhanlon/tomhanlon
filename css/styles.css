@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	background: #fff;
+	line-height: 1.5;
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	padding: 0.75em;
+}
+.container > div {
+	margin-top: 1rem;
+}
+.headshot, figcaption {
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	font-style: italic;
+}
+h1, h2 {
+	font-family: 'Asar', serif;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	margin-top: .5rem;
+}
+@media screen and (min-width: 414px) {
+	.container {
+		max-width: 30rem;
+	}
+}
+a {
+	color: #a65b3e;
+}
