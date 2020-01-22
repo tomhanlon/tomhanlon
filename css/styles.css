@@ -40,3 +40,4 @@ a {
 a:hover {
 	color: #e5584e;
 }
+img { max-width: 100%; height: auto; }
